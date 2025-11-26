@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishali Kondoju | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">VK.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <p class="subtitle">Hello, I am</p>
+            <h1>Vaishali Kondoju</h1>
+            <p class="role">Software Engineer & Data Scientist</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="assets/vaishali-kondoju_resume.pdf" class="btn btn-outline" download>Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/images/profile.jpg" alt="Vaishali Kondoju">
+                </div>
+                <div class="about-text">
+                    <p>I am a Software Engineer with over 4 years of experience specializing in Data Science. Currently pursuing my Master’s in Applied Data Science at Indiana University, I combine strong engineering skills with a passion for analytics to build scalable solutions in healthcare and tech.</p>
+                    <p>Previously, I optimized large-scale systems at <strong>Tata Consultancy Services</strong> and <strong>Optum Global Solutions</strong>, where I developed automation tools and performance-tuned databases. I am driven by creating real-world impact through robust, data-driven applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+            </div>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Languages & Databases</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>Java</span><span>SQL (Oracle/PL)</span><span>R</span><span>C</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>HTML/CSS</span><span>JavaScript</span><span>React</span><span>Flask</span><span>AWS</span><span>PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data Science & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Machine Learning</span><span>TensorFlow</span><span>Tableau</span><span>ArcGIS</span><span>Pandas/NumPy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Graduate Research Assistant</h3>
+                        <h4>Indiana University | The Polis Center</h4>
+                        <ul>
+                            <li>Performed ETL processing on geospatial datasets and developed Tableau dashboards for urban accessibility trends.</li>
+                            <li>Automated data workflows using Python, reducing manual effort by 20%.</li>
+                            <li>Led the Knowledge Indiana Project, coordinating research and managing content via WordPress.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2022 - Jul 2023</div>
+                    <div class="timeline-content">
+                        <h3>Systems Engineer</h3>
+                        <h4>Tata Consultancy Services</h4>
+                        <ul>
+                            <li>Automated network monitoring with Python, reducing manual workload by 80%.</li>
+                            <li>Designed SQL scripts for ETL workflows, ensuring 99% data accuracy.</li>
+                            <li>Developed real-time reporting tools, cutting generation time from 2 hours to 10 minutes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Aug 2019 - Aug 2022</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>Optum Global Solutions</h4>
+                        <ul>
+                            <li>Built interactive data visualizations for claims tracking using JS and HTML.</li>
+                            <li>Optimized SQL stored procedures for healthcare claims, boosting efficiency by 90%.</li>
+                            <li>Developed automation tools for mock data generation, reducing test creation time by 70%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="assets/images/project1.jpg" alt="CineMatch">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Machine Learning</span>
+                        <h3>CineMatch Recommendation System</h3>
+                        <p>A personalized recommendation engine using Python & Scikit-learn. Analyzed 5,000+ IMDB movies to enhance content discovery.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/VaishaliKondoju/MovieRecommender-main" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="assets/images/project2.jpg" alt="Geospatial Analysis">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Geospatial Analysis</span>
+                        <h3>Healthcare Access Analysis</h3>
+                        <p>GIS analysis using ArcGIS Pro to map healthcare facilities and identify gaps in underserved communities.</p>
+                        <div class="card-links">
+                            <a href="https://storymaps.arcgis.com/stories/bad688c32df04ff380b6d17c3855fed3" target="_blank">View StoryMap <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="assets/images/project5.png" alt="Insurance Prediction">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Data Science</span>
+                        <h3>Insurance Claim Prediction</h3>
+                        <p>Classification model using Random Forest to predict claim acceptance/rejection with 92% accuracy.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-image">
+                        <img src="assets/images/project6.jpg" alt="Employee Tracking">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">Web Development</span>
+                        <h3>Employee Tracking System</h3>
+                        <p>Secure 3-tier web application (PHP/SQL) for managing attendance, leave, and training workflows.</p>
+                        <div class="card-links">
+                            <a href="https://github.com/VaishaliKondoju/Employee-Tracking-System" target="_blank">View Code <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <div class="education-list">
+                <div class="education-item">
+                    <h3>Master of Science in Applied Data Science</h3>
+                    <p class="school">Indiana University, Indianapolis (3.8 GPA)</p>
+                    <p class="year">2023 - 2025</p>
+                </div>
+                <div class="education-item">
+                    <h3>B.Tech in Computer Science</h3>
+                    <p class="school">Jawaharlal Nehru Technological University, India</p>
+                    <p class="year">2015 - 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-content">
+            <h2>Let's Connect</h2>
+            <p>I am currently open to full-time opportunities in Software Engineering and Data Science.</p>
+            <div class="social-links">
+                <a href="mailto:kondojuvaishali98@gmail.com"><i class="fas fa-envelope"></i> kondojuvaishali98@gmail.com</a>
+                <a href="https://www.linkedin.com/in/vaishali-kondoju-787307136/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2025 Vaishali Kondoju.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
